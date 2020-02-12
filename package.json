@@ -4,6 +4,9 @@
   "description": "Nossa biblioteca do curso de JS com TDD na prática.",
   "main": "index.js",
   "scripts": {
+    "eslint": "./node_modules/.bin/eslint src/*.js",
+    "eslint --fix": "./node_modules/.bin/eslint src/*.js --fix",
+    "prepush": "npm run eslint --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/eduardomonteiro64/js-tdd-curso/issues"
   },
-  "homepage": "https://github.com/eduardomonteiro64/js-tdd-curso#readme"
+  "homepage": "https://github.com/eduardomonteiro64/js-tdd-curso#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1"
+  }
 }
