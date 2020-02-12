@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-curso",
+  "version": "1.0.0",
+  "description": "Nossa biblioteca do curso de JS com TDD na prática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardomonteiro64/js-tdd-curso.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Eduardo Siqueira <eduardomonteiro64@gmail.com> (https://github.com/eduardomonteiro64)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardomonteiro64/js-tdd-curso/issues"
+  },
+  "homepage": "https://github.com/eduardomonteiro64/js-tdd-curso#readme"
+}
